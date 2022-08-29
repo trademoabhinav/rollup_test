@@ -6,7 +6,8 @@
   "module": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "start": "npm run build"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
