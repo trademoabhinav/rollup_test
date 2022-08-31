@@ -1,9 +1,12 @@
 {
-  "name": "trademo-rollup-test",
-  "version": "2.1.0",
+  "name": "@trademoabhinav/trademo-rollup-test",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/trademoabhinav"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
