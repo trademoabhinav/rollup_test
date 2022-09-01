@@ -4,8 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/trademoabhinav"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
